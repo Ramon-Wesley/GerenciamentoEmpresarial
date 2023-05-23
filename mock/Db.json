@@ -1,0 +1,84 @@
+{
+"auth":{
+    "accessToken":"aaaa@$FTYR1&&Y&@&7"
+},
+"venda":[
+    {
+    "id":1,
+    "id_cliente":1,
+    "valor_total":200.5,
+    "data_de_compra":"18/12/2023"
+},
+{
+    "id":2,
+    "id_cliente":1,
+    "valor_total":200.5,
+    "data_de_compra":"18/12/2023"
+}
+],
+"itens_venda":{
+    "id":1,
+    "venda_id":1,
+    "produto_id":1,
+    "qunatidade":2,
+    "subtotal":10
+},
+"compras":{
+    "id":1,
+    "id_fornecedor":1,
+    "valor_total":500,
+    "data":"10/06/2023"
+},
+"itens_compras":{
+    "id":1,
+    "compra_id":1,
+    "produto_id":1,
+    "validade":"12/12/2023",
+    "fornecedor_id":1,
+    "quantidade":2,
+    "subtotal":10
+},
+"clientes":{
+    "id":1,
+    "nome":"Raimundo",
+    "cpf":"12345678",
+    "email":"email@hotmail.com",
+    "telefone":"12345678",
+    "id_endereco":1
+
+},
+"fornecedor":{
+    "id":1,
+    "nome":"Pedro",
+    "CNPJ":"123456677",
+    "email":"emaill@gmail.com",
+    "telefone":"12345678",
+    "id_endereco":2
+},
+"produtos":{
+    "id_produto":1,
+    "id_categoria":1,
+    "nome":"pamonha",
+    "descrição":"gsjgdhuhduih",
+    "preço_unitário":"2",
+    "quantidade":10
+},
+"categorias":{
+    "id":1,
+    "categoria":"doces"
+},
+"estoque":{
+    "id_produto":1
+},
+"endereco":{
+    "id":1,
+    "cep":"123-123",
+    "rua":"gashasgjhas",
+    "numero":"123",
+    "complemento":"dhdkhs",
+    "cidade":"djhjkdhdk",
+    "Estado":"MG"
+
+
+}
+}
